@@ -17,7 +17,7 @@ class IndexController extends Controller
         //
         // $data = Admin::paginate(3);
         echo '1';
-        //return view('Admin.index.index');
+        return view('Admin.index.index');
     }
 
     /**
@@ -79,6 +79,7 @@ class IndexController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  int  $id
+312312312312312312
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
